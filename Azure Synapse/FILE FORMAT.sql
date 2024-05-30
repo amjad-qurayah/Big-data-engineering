@@ -1,0 +1,11 @@
+
+------Create External File Format------
+
+CREATE EXTERNAL FILE FORMAT [CSV] WITH
+ (
+ FORMAT_TYPE = DELIMITEDTEXT,
+ FORMAT_OPTIONS(
+ FIELD_TERMINATOR = ',',
+ FIRST_ROW = 2
+ )
+ )
